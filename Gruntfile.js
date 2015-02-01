@@ -413,12 +413,12 @@ module.exports = function (grunt) {
     },
 
     // Test settings
-    karma: {
+/*    karma: {
       unit: {
         configFile: 'karma.conf.js',
         singleRun: true
       }
-    },
+    },*/
 
     mochaTest: {
       options: {
@@ -562,8 +562,8 @@ module.exports = function (grunt) {
         'env:all',
         'concurrent:test',
         'injector',
-        'autoprefixer',
-        'karma'
+        'autoprefixer'
+        //'karma'
       ]);
     }
 
