@@ -1,0 +1,5 @@
+Express server listening on 7777, in test mode
+[90mGET /api/things [32m200 [90m8ms - 946b[0m
+<testsuite name="Mocha Tests" tests="1" failures="0" errors="0" skipped="0" timestamp="Mon, 23 Feb 2015 11:57:59 GMT" time="0.055">
+<testcase classname="GET /api/things" name="should respond with JSON array" time="0.047"/>
+</testsuite>
