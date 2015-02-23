@@ -1,18 +1,9 @@
 Express server listening on 7777, in test mode
-[90mGET /api/things [32m200 [90m8ms - 946b[0m
-[90mGET /api/things [32m200 [90m2ms - 946b[0m
+[90mGET /api/things [32m200 [90m6ms - 946b[0m
 [90mGET /api/things [32m200 [90m1ms - 946b[0m
-<testsuite name="Mocha Tests" tests="3" failures="1" errors="1" skipped="0" timestamp="Mon, 23 Feb 2015 14:35:57 GMT" time="0.079">
-<testcase classname="GET /api/things" name="should respond with JSON array" time="0.047"/>
-<testcase classname="GET /api/things" name="expecting 304" time="0.012" message="expected 304 &amp;quot;Not Modified&amp;quot;, got 200 &amp;quot;OK&amp;quot;"><failure classname="GET /api/things" name="expecting 304" time="0.012" message="expected 304 &amp;quot;Not Modified&amp;quot;, got 200 &amp;quot;OK&amp;quot;"><![CDATA[Error: expected 304 &quot;Not Modified&quot;, got 200 &quot;OK&quot;
-    at Test.assert (/home/krysiu-ibisz/webtest/node_modules/supertest/lib/test.js:197:15)
-    at /home/krysiu-ibisz/webtest/node_modules/supertest/lib/test.js:125:10
-    at Test.Request.callback (/home/krysiu-ibisz/webtest/node_modules/supertest/node_modules/superagent/lib/node/index.js:660:30)
-    at Test.&lt;anonymous&gt; (/home/krysiu-ibisz/webtest/node_modules/supertest/node_modules/superagent/lib/node/index.js:132:10)
-    at Test.emit (events.js:95:17)
-    at IncomingMessage.&lt;anonymous&gt; (/home/krysiu-ibisz/webtest/node_modules/supertest/node_modules/superagent/lib/node/index.js:818:12)
-    at IncomingMessage.emit (events.js:117:20)
-    at _stream_readable.js:943:16
-    at process._tickDomainCallback (node.js:463:13)]]></failure></testcase>
-<testcase classname="GET /api/things" name="should respond with JSON array" time="0.009"/>
+[90mGET /api/things [32m200 [90m1ms - 946b[0m
+<testsuite name="Mocha Tests" tests="3" failures="0" errors="0" skipped="0" timestamp="Mon, 23 Feb 2015 19:31:41 GMT" time="0.047">
+<testcase classname="GET /api/things" name="should respond with JSON array" time="0.029"/>
+<testcase classname="GET /api/things" name="expecting 304" time="0.007"/>
+<testcase classname="GET /api/things" name="expect 404" time="0.005"/>
 </testsuite>
