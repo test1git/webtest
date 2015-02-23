@@ -8,7 +8,7 @@
     at Test.emit (events.js:95:17)
     at IncomingMessage.&lt;anonymous&gt; (/home/krysiu-ibisz/webtest/node_modules/supertest/node_modules/superagent/lib/node/index.js:818:12)
     at IncomingMessage.emit (events.js:117:20)
-    at _stream_readable.js:943:16
+    at _stream_readable.js:943:17
     at process._tickDomainCallback (node.js:463:13)]]></failure></testcase>
 <testcase classname="GET /api/things" name="should respond with JSON array" time="0.009"/>
 </testsuite>
