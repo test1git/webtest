@@ -11,5 +11,5 @@
     at _stream_readable.js:943:17
     at process._tickDomainCallback (node.js:463:13)]]></failure></testcase>
 <testcase classname="GET /api/things" name="should respond with JSON array" time="0.009"/>
-</testsuite>
+</testsuite>adsadsdadsad
 
